@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- ================= HÀNG HÓA ================= -->
+        <record id="hang_01" model="hang">
+            <field name="tenhang">Hàng Điện Tử</field>
+            <field name="mahang">1001</field>
+            <field name="diachi">Hà Nội</field>
+            <field name="sodt">0123456789</field>
+        </record>
+
+        <record id="hang_02" model="hang">
+            <field name="tenhang">Hàng Gia Dụng</field>
+            <field name="mahang">1002</field>
+            <field name="diachi">TP. Hồ Chí Minh</field>
+            <field name="sodt">0987654321</field>
+        </record>
+
+        <!-- ================= NHÂN VIÊN ================= -->
+        <record id="nhanvien_01" model="nhanvien">
+            <field name="tennv">Nguyễn Văn A</field>
+            <field name="manv">2001</field>
+            <field name="gioitinh">nam</field>
+            <field name="sodt">0901111222</field>
+        </record>
+
+        <record id="nhanvien_02" model="nhanvien">
+            <field name="tennv">Trần Thị B</field>
+            <field name="manv">2002</field>
+            <field name="gioitinh">nu</field>
+            <field name="sodt">0912222333</field>
+        </record>
+
+        <!-- ================= SẢN PHẨM ================= -->
+        <record id="sanpham_01" model="sanpham">
+            <field name="masp">SP001</field>
+            <field name="tensp">Laptop Dell</field>
+            <field name="soluong">10</field>
+            <field name="giaban">20000000</field>
+            <field name="mausac">do</field>
+        </record>
+
+        <record id="sanpham_02" model="sanpham">
+            <field name="masp">SP002</field>
+            <field name="tensp">Điện Thoại Samsung</field>
+            <field name="soluong">20</field>
+            <field name="giaban">15000000</field>
+            <field name="mausac">xanh</field>
+        </record>
+
+        <record id="sanpham_03" model="sanpham">
+            <field name="masp">SP003</field>
+            <field name="tensp">Tai Nghe Bluetooth</field>
+            <field name="soluong">50</field>
+            <field name="giaban">500000</field>
+            <field name="mausac">vang</field>
+        </record>
+
+    </data>
+</odoo>
